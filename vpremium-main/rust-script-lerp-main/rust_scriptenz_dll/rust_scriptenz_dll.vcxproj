@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{084B50BE-1DA3-43BE-9D62-38DD651CC6F5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>rustscriptenzdll</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <ProjectName>vPremium new</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)$(ProjectName)\vendor\DirectX9\Lib;$(SolutionDir)$(ProjectName)\vendor\DirectX9\Lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)$(ProjectName)\vendor\DirectX9\Lib;$(SolutionDir)$(ProjectName)\vendor\DirectX9\Lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)$(ProjectName)\vendor\DirectX9\Lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <IncludePath>C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\ImGui;C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)$(ProjectName)\vendor\DirectX9\Lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;RUSTSCRIPTENZDLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)\vendor\;C:\Program Files\MySQL\Connector C++ 1.1\include;C:\boost\boost_1_75_0</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Winmm.lib;%(AdditionalDependencies);mysqlcppconn.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\MySQL\Connector C++ 1.1\lib\opt;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;RUSTSCRIPTENZDLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)\vendor\;C:\Program Files\MySQL\Connector C++ 1.1\include;C:\boost\boost_1_75_0</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Winmm.lib;%(AdditionalDependencies);mysqlcppconn.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\MySQL\Connector C++ 1.1\lib\opt;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;RUSTSCRIPTENZDLL_EXPORTS;_CONSOLE;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/Zc:threadSafeInit- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)\vendor\</AdditionalIncludeDirectories>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;RUSTSCRIPTENZDLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/Zc:threadSafeInit- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)\vendor\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\MySQL\Connector C++ 1.1\lib\opt;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="API.h" />
+    <ClInclude Include="files.h" />
+    <ClInclude Include="font.h" />
+    <ClInclude Include="main\gui.hpp" />
+    <ClInclude Include="main\internal.hpp" />
+    <ClInclude Include="main\previews.h" />
+    <ClInclude Include="recoil data\attachment_data.h" />
+    <ClInclude Include="config settings\config.h" />
+    <ClInclude Include="core\config.hpp" />
+    <ClInclude Include="core\graphics_api.hpp" />
+    <ClInclude Include="auth\crypto.hpp" />
+    <ClInclude Include="input\inputsystem.h" />
+    <ClInclude Include="auth\md5.h" />
+    <ClInclude Include="Mouse control\mouse_controller.h" />
+    <ClInclude Include="pch\pch.h" />
+    <ClInclude Include="proc handle\process_handler.h" />
+    <ClInclude Include="recoil data\recoil_values.h" />
+    <ClInclude Include="recoil data\rust_recoil.h" />
+    <ClInclude Include="config settings\settings.h" />
+    <ClInclude Include="auth\sha256.h" />
+    <ClInclude Include="config settings\unity_keynames.h" />
+    <ClInclude Include="utils\utils.h" />
+    <ClInclude Include="utils\utils.hpp" />
+    <ClInclude Include="vec2\vec2.h" />
+    <ClInclude Include="vendor\DirectX9\Include\audiodefs.h" />
+    <ClInclude Include="vendor\DirectX9\Include\comdecl.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D2D1.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D2D1Helper.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D2DBaseTypes.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D2Derr.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3D10.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3D10effect.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3d10misc.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3d10sdklayers.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3D10shader.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3D10_1.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3D10_1shader.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3D11.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3D11SDKLayers.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3D11Shader.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3d9.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3d9caps.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3d9types.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3Dcommon.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3Dcompiler.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3DCSX.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3DX10.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3dx10async.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3DX10core.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3DX10math.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3DX10mesh.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3DX10tex.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3DX11.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3DX11async.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3DX11core.h" />
+    <ClInclude Include="vendor\DirectX9\Include\D3DX11tex.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9anim.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9core.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9effect.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9math.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9mesh.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9shader.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9shape.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9tex.h" />
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9xof.h" />
+    <ClInclude Include="vendor\DirectX9\Include\Dcommon.h" />
+    <ClInclude Include="vendor\DirectX9\Include\detours.h" />
+    <ClInclude Include="vendor\DirectX9\Include\dinput.h" />
+    <ClInclude Include="vendor\DirectX9\Include\dinputd.h" />
+    <ClInclude Include="vendor\DirectX9\Include\dsconf.h" />
+    <ClInclude Include="vendor\DirectX9\Include\dsetup.h" />
+    <ClInclude Include="vendor\DirectX9\Include\dsound.h" />
+    <ClInclude Include="vendor\DirectX9\Include\DWrite.h" />
+    <ClInclude Include="vendor\DirectX9\Include\dxdiag.h" />
+    <ClInclude Include="vendor\DirectX9\Include\DxErr.h" />
+    <ClInclude Include="vendor\DirectX9\Include\dxfile.h" />
+    <ClInclude Include="vendor\DirectX9\Include\DXGI.h" />
+    <ClInclude Include="vendor\DirectX9\Include\DXGIFormat.h" />
+    <ClInclude Include="vendor\DirectX9\Include\DXGIType.h" />
+    <ClInclude Include="vendor\DirectX9\Include\dxsdkver.h" />
+    <ClInclude Include="vendor\DirectX9\Include\gameux.h" />
+    <ClInclude Include="vendor\DirectX9\Include\PIXPlugin.h" />
+    <ClInclude Include="vendor\DirectX9\Include\rmxfguid.h" />
+    <ClInclude Include="vendor\DirectX9\Include\rmxftmpl.h" />
+    <ClInclude Include="vendor\DirectX9\Include\rpcsal.h" />
+    <ClInclude Include="vendor\DirectX9\Include\X3DAudio.h" />
+    <ClInclude Include="vendor\DirectX9\Include\xact3.h" />
+    <ClInclude Include="vendor\DirectX9\Include\xact3d3.h" />
+    <ClInclude Include="vendor\DirectX9\Include\xact3wb.h" />
+    <ClInclude Include="vendor\DirectX9\Include\XAPO.h" />
+    <ClInclude Include="vendor\DirectX9\Include\XAPOBase.h" />
+    <ClInclude Include="vendor\DirectX9\Include\XAPOFX.h" />
+    <ClInclude Include="vendor\DirectX9\Include\XAudio2.h" />
+    <ClInclude Include="vendor\DirectX9\Include\XAudio2fx.h" />
+    <ClInclude Include="vendor\DirectX9\Include\XDSP.h" />
+    <ClInclude Include="vendor\DirectX9\Include\XInput.h" />
+    <ClInclude Include="vendor\DirectX9\Include\xma2defs.h" />
+    <ClInclude Include="vendor\DirectX9\Include\xnamath.h" />
+    <ClInclude Include="vendor\ImGui\imconfig.h" />
+    <ClInclude Include="vendor\ImGui\imgui.h" />
+    <ClInclude Include="vendor\ImGui\imgui_impl_dx9.h" />
+    <ClInclude Include="vendor\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="vendor\ImGui\imgui_internal.h" />
+    <ClInclude Include="vendor\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="vendor\ImGui\imstb_textedit.h" />
+    <ClInclude Include="vendor\ImGui\imstb_truetype.h" />
+    <ClInclude Include="recoil data\weapon_data.h" />
+    <ClInclude Include="widgets\crosshairs.hpp" />
+    <ClInclude Include="widgets\fonts.hpp" />
+    <ClInclude Include="widgets\widgets.hpp" />
+    <ClInclude Include="auth\xor.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="config settings\config.cpp" />
+    <ClCompile Include="files.cpp" />
+    <ClCompile Include="main\cfg.cpp" />
+    <ClCompile Include="main\internal.cpp" />
+    <ClCompile Include="main\main.cpp" />
+    <ClCompile Include="input\inputsystem.cpp" />
+    <ClCompile Include="auth\md5.cpp" />
+    <ClCompile Include="Mouse control\mouse_controller.cpp" />
+    <ClCompile Include="pch\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="proc handle\process_handler.cpp" />
+    <ClCompile Include="auth\sha256.cpp" />
+    <ClCompile Include="vec2\vec2.cpp" />
+    <ClCompile Include="vendor\ImGui\imgui.cpp" />
+    <ClCompile Include="vendor\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="vendor\ImGui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="vendor\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="vendor\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="widgets\widgets.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vendor\DirectX9\Include\D3DX10math.inl" />
+    <None Include="vendor\DirectX9\Include\d3dx9math.inl" />
+    <None Include="vendor\DirectX9\Include\D3DX_DXGIFormatConvert.inl" />
+    <None Include="vendor\DirectX9\Include\xnamathconvert.inl" />
+    <None Include="vendor\DirectX9\Include\xnamathmatrix.inl" />
+    <None Include="vendor\DirectX9\Include\xnamathmisc.inl" />
+    <None Include="vendor\DirectX9\Include\xnamathvector.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

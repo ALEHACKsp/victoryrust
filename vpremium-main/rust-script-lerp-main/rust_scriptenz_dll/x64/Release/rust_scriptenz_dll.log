@@ -1,0 +1,176 @@
+﻿  pch.cpp
+  config.cpp
+  files.cpp
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\files.cpp(27,13): warning C4244: 'return': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  cfg.cpp
+  internal.cpp
+  main.cpp
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56388): message : önceki 'DXGI_STATUS_OCCLUDED' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(13,1): warning C4005: 'DXGI_STATUS_CLIPPED': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56397): message : önceki 'DXGI_STATUS_CLIPPED' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(14,1): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56406): message : önceki 'DXGI_STATUS_NO_REDIRECTION' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(15,1): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56415): message : önceki 'DXGI_STATUS_NO_DESKTOP_ACCESS' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(16,1): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56424): message : önceki 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(17,1): warning C4005: 'DXGI_STATUS_MODE_CHANGED': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56433): message : önceki 'DXGI_STATUS_MODE_CHANGED' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(18,1): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56442): message : önceki 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(21,1): warning C4005: 'DXGI_ERROR_INVALID_CALL': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56457): message : önceki 'DXGI_ERROR_INVALID_CALL' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(22,1): warning C4005: 'DXGI_ERROR_NOT_FOUND': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56466): message : önceki 'DXGI_ERROR_NOT_FOUND' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(23,1): warning C4005: 'DXGI_ERROR_MORE_DATA': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56475): message : önceki 'DXGI_ERROR_MORE_DATA' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(24,1): warning C4005: 'DXGI_ERROR_UNSUPPORTED': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56484): message : önceki 'DXGI_ERROR_UNSUPPORTED' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(25,1): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56493): message : önceki 'DXGI_ERROR_DEVICE_REMOVED' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(26,1): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56502): message : önceki 'DXGI_ERROR_DEVICE_HUNG' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(27,1): warning C4005: 'DXGI_ERROR_DEVICE_RESET': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56512): message : önceki 'DXGI_ERROR_DEVICE_RESET' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(28,1): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56521): message : önceki 'DXGI_ERROR_WAS_STILL_DRAWING' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(29,1): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56531): message : önceki 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(30,1): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56540): message : önceki 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(31,1): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56550): message : önceki 'DXGI_ERROR_DRIVER_INTERNAL_ERROR' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(32,1): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56559): message : önceki 'DXGI_ERROR_NONEXCLUSIVE' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(33,1): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56568): message : önceki 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(34,1): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56578): message : önceki 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\dxgitype.h(35,1): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56587): message : önceki 'DXGI_ERROR_REMOTE_OUTOFMEMORY' tanımına bakın
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincodec.h(1053,23): error C3646: 'PixelFormat': bilinmeyen geçersiz kılma belirticisi
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincodec.h(1053,34): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincodec.h(8173,36): error C2061: sözdizimi hatası: tanımlayıcı 'DXGI_JPEG_AC_HUFFMAN_TABLE'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincodec.h(8178,36): error C2061: sözdizimi hatası: tanımlayıcı 'DXGI_JPEG_DC_HUFFMAN_TABLE'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincodec.h(8183,36): error C2061: sözdizimi hatası: tanımlayıcı 'DXGI_JPEG_QUANTIZATION_TABLE'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincodec.h(8362,36): error C2061: sözdizimi hatası: tanımlayıcı 'DXGI_JPEG_AC_HUFFMAN_TABLE'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincodec.h(8367,36): error C2061: sözdizimi hatası: tanımlayıcı 'DXGI_JPEG_DC_HUFFMAN_TABLE'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincodec.h(8372,36): error C2061: sözdizimi hatası: tanımlayıcı 'DXGI_JPEG_QUANTIZATION_TABLE'
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\core\config.hpp(57,19): warning C4244: 'return': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\internal.hpp(193,29): warning C4305: 'başlatılıyor': 'double' iken 'float' olarak kesildi
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(59,1): warning C4005: 'D2DERR_WRONG_STATE': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56930): message : önceki 'D2DERR_WRONG_STATE' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(64,1): warning C4005: 'D2DERR_NOT_INITIALIZED': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56939): message : önceki 'D2DERR_NOT_INITIALIZED' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(69,1): warning C4005: 'D2DERR_UNSUPPORTED_OPERATION': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56948): message : önceki 'D2DERR_UNSUPPORTED_OPERATION' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(74,1): warning C4005: 'D2DERR_SCANNER_FAILED': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56957): message : önceki 'D2DERR_SCANNER_FAILED' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(79,1): warning C4005: 'D2DERR_SCREEN_ACCESS_DENIED': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56966): message : önceki 'D2DERR_SCREEN_ACCESS_DENIED' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(84,1): warning C4005: 'D2DERR_DISPLAY_STATE_INVALID': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56975): message : önceki 'D2DERR_DISPLAY_STATE_INVALID' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(89,1): warning C4005: 'D2DERR_ZERO_VECTOR': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56984): message : önceki 'D2DERR_ZERO_VECTOR' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(97,1): warning C4005: 'D2DERR_INTERNAL_ERROR': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56993): message : önceki 'D2DERR_INTERNAL_ERROR' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(103,1): warning C4005: 'D2DERR_DISPLAY_FORMAT_NOT_SUPPORTED': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57002): message : önceki 'D2DERR_DISPLAY_FORMAT_NOT_SUPPORTED' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(108,1): warning C4005: 'D2DERR_INVALID_CALL': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57011): message : önceki 'D2DERR_INVALID_CALL' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(113,1): warning C4005: 'D2DERR_NO_HARDWARE_DEVICE': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57020): message : önceki 'D2DERR_NO_HARDWARE_DEVICE' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(119,1): warning C4005: 'D2DERR_RECREATE_TARGET': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57029): message : önceki 'D2DERR_RECREATE_TARGET' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(124,1): warning C4005: 'D2DERR_TOO_MANY_SHADER_ELEMENTS': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57038): message : önceki 'D2DERR_TOO_MANY_SHADER_ELEMENTS' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(129,1): warning C4005: 'D2DERR_SHADER_COMPILE_FAILED': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57047): message : önceki 'D2DERR_SHADER_COMPILE_FAILED' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(134,1): warning C4005: 'D2DERR_MAX_TEXTURE_SIZE_EXCEEDED': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57056): message : önceki 'D2DERR_MAX_TEXTURE_SIZE_EXCEEDED' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(139,1): warning C4005: 'D2DERR_UNSUPPORTED_VERSION': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57065): message : önceki 'D2DERR_UNSUPPORTED_VERSION' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(144,1): warning C4005: 'D2DERR_BAD_NUMBER': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57074): message : önceki 'D2DERR_BAD_NUMBER' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(149,1): warning C4005: 'D2DERR_WRONG_FACTORY': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57083): message : önceki 'D2DERR_WRONG_FACTORY' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(154,1): warning C4005: 'D2DERR_LAYER_ALREADY_IN_USE': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57092): message : önceki 'D2DERR_LAYER_ALREADY_IN_USE' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(159,1): warning C4005: 'D2DERR_POP_CALL_DID_NOT_MATCH_PUSH': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57101): message : önceki 'D2DERR_POP_CALL_DID_NOT_MATCH_PUSH' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(164,1): warning C4005: 'D2DERR_WRONG_RESOURCE_DOMAIN': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57110): message : önceki 'D2DERR_WRONG_RESOURCE_DOMAIN' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(169,1): warning C4005: 'D2DERR_PUSH_POP_UNBALANCED': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57119): message : önceki 'D2DERR_PUSH_POP_UNBALANCED' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(174,1): warning C4005: 'D2DERR_RENDER_TARGET_HAS_LAYER_OR_CLIPRECT': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57128): message : önceki 'D2DERR_RENDER_TARGET_HAS_LAYER_OR_CLIPRECT' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(179,1): warning C4005: 'D2DERR_INCOMPATIBLE_BRUSH_TYPES': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57137): message : önceki 'D2DERR_INCOMPATIBLE_BRUSH_TYPES' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(184,1): warning C4005: 'D2DERR_WIN32_ERROR': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57146): message : önceki 'D2DERR_WIN32_ERROR' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(189,1): warning C4005: 'D2DERR_TARGET_NOT_GDI_COMPATIBLE': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57155): message : önceki 'D2DERR_TARGET_NOT_GDI_COMPATIBLE' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(194,1): warning C4005: 'D2DERR_TEXT_EFFECT_IS_WRONG_TYPE': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57164): message : önceki 'D2DERR_TEXT_EFFECT_IS_WRONG_TYPE' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(201,1): warning C4005: 'D2DERR_TEXT_RENDERER_NOT_RELEASED': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57173): message : önceki 'D2DERR_TEXT_RENDERER_NOT_RELEASED' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\D2DErr.h(206,1): warning C4005: 'D2DERR_EXCEEDS_MAX_BITMAP_SIZE': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(57182): message : önceki 'D2DERR_EXCEEDS_MAX_BITMAP_SIZE' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\d3d10.h(608,1): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56841): message : önceki 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\DirectX9\Include\d3d10.h(609,1): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': makro yeniden tanımlama
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56850): message : önceki 'D3D10_ERROR_FILE_NOT_FOUND' tanımına bakın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\core\graphics_api.hpp(140,41): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\core\graphics_api.hpp(141,41): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\core\graphics_api.hpp(388,35): warning C4805: '==' : işlemde güvenli olmayan 'int' türü ve 'bool' türü karışımı
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\core\graphics_api.hpp(749,59): warning C4806: '|' : güvenli olmayan işlem: 'bool' için atanan 'long' türünde hiçbir değer belirtilen sabitle eşit olamaz
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\core\graphics_api.hpp(749,75): warning C4554: '|': olası hata için işleç önceliğini denetleyin; önceliği netleştirmek için parantez kullanın
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\core\graphics_api.hpp(776,33): warning C4244: '=': 'const float' - 'UINT' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\core\graphics_api.hpp(777,34): warning C4244: '=': 'const float' - 'UINT' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\core\graphics_api.hpp(782,48): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\core\graphics_api.hpp(782,40): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\core\graphics_api.hpp(782,32): warning C4244: 'bağımsız değişken': 'const float' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\core\graphics_api.hpp(782,25): warning C4244: 'bağımsız değişken': 'const float' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\core\graphics_api.hpp(825,90): warning C4267: 'bağımsız değişken': 'size_t' - 'UINT' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\gui.hpp(502,96): warning C4267: 'bağımsız değişken': 'size_t' - 'UINT' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\gui.hpp(673,102): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\gui.hpp(673,71): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\gui.hpp(808,105): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\gui.hpp(808,72): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\gui.hpp(903,50): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\main.cpp(221,15): warning C4244: 'bağımsız değişken': 'time_t' - 'unsigned int' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\main.cpp(346,30): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\main.cpp(461,33): warning C4553: '==': ifade sonucu kullanılmıyor; '=' kullanmak mı istediniz?
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\main.cpp(466,33): warning C4553: '==': ifade sonucu kullanılmıyor; '=' kullanmak mı istediniz?
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\main.cpp(471,33): warning C4553: '==': ifade sonucu kullanılmıyor; '=' kullanmak mı istediniz?
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\main.cpp(476,33): warning C4553: '==': ifade sonucu kullanılmıyor; '=' kullanmak mı istediniz?
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\main.cpp(492,34): warning C4553: '==': ifade sonucu kullanılmıyor; '=' kullanmak mı istediniz?
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\main.cpp(497,34): warning C4553: '==': ifade sonucu kullanılmıyor; '=' kullanmak mı istediniz?
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\main\main.cpp(502,34): warning C4553: '==': ifade sonucu kullanılmıyor; '=' kullanmak mı istediniz?
+  inputsystem.cpp
+  md5.cpp
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\auth\md5.cpp(77,39): warning C4267: 'bağımsız değişken': 'size_t' - 'MD5::size_type' dönüşümü; veri kaybı olabilir
+  mouse_controller.cpp
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\Mouse control\mouse_controller.cpp(19,20): warning C4244: '=': 'float' - 'LONG' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\Mouse control\mouse_controller.cpp(20,20): warning C4244: '=': 'float' - 'LONG' dönüşümü; veri kaybı olabilir
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\Mouse control\mouse_controller.cpp(65,25): warning C4244: 'başlatılıyor': '_Rep' - 'int' dönüşümü; veri kaybı olabilir
+          with
+          [
+              _Rep=__int64
+          ]
+  process_handler.cpp
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\proc handle\process_handler.cpp(10,23): warning C4244: 'return': 'LRESULT' - 'int' dönüşümü; veri kaybı olabilir
+  sha256.cpp
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\auth\sha256.cpp(126,61): warning C4267: 'bağımsız değişken': 'size_t' - 'unsigned int' dönüşümü; veri kaybı olabilir
+  vec2.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\ImGui\imgui_widgets.cpp(1605,69): warning C4305: 'bağımsız değişken': 'double' iken 'const float' olarak kesildi
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\ImGui\imgui_widgets.cpp(3630,64): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\ImGui\imgui_widgets.cpp(3631,65): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\semih\Desktop\vpremium-main\rust-script-lerp-main\rust_scriptenz_dll\vendor\ImGui\imgui_widgets.cpp(3632,66): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+  widgets.cpp

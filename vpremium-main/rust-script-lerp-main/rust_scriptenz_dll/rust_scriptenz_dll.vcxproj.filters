@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="mouse_controller">
+      <UniqueIdentifier>{b4c3cf39-7b06-4957-96ea-79f854fac352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rust">
+      <UniqueIdentifier>{07766aa7-e368-4eb1-a6b2-b9e77f3d662a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{bbbdf411-4bdc-4af6-9398-5b8664f527d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vendor\DirectX9\Include\audiodefs.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\comdecl.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D2D1.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D2D1Helper.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D2DBaseTypes.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D2Derr.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3d9.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3d9caps.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3d9types.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3D10.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3D10_1.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3D10_1shader.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3D10effect.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3d10misc.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3d10sdklayers.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3D10shader.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3D11.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3D11SDKLayers.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3D11Shader.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3Dcommon.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3Dcompiler.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3DCSX.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9anim.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9core.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9effect.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9math.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9mesh.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9shader.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9shape.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9tex.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3dx9xof.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3DX10.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\d3dx10async.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3DX10core.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3DX10math.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3DX10mesh.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3DX10tex.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3DX11.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3DX11async.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3DX11core.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\D3DX11tex.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\Dcommon.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\detours.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\dinput.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\dinputd.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\dsconf.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\dsetup.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\dsound.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\DWrite.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\dxdiag.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\DxErr.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\dxfile.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\DXGI.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\DXGIFormat.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\DXGIType.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\dxsdkver.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\gameux.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\PIXPlugin.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\rmxfguid.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\rmxftmpl.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\rpcsal.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\X3DAudio.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\xact3.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\xact3d3.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\xact3wb.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\XAPO.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\XAPOBase.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\XAPOFX.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\XAudio2.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\XAudio2fx.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\XDSP.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\XInput.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\xma2defs.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\DirectX9\Include\xnamath.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imconfig.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imgui.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imgui_impl_dx9.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imgui_impl_win32.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imgui_internal.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imstb_rectpack.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imstb_textedit.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imstb_truetype.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="core\graphics_api.hpp">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.hpp">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="core\config.hpp">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="widgets\crosshairs.hpp">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="widgets\fonts.hpp">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="widgets\widgets.hpp">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse control\mouse_controller.h">
+      <Filter>mouse_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="recoil data\attachment_data.h">
+      <Filter>rust</Filter>
+    </ClInclude>
+    <ClInclude Include="recoil data\weapon_data.h">
+      <Filter>rust</Filter>
+    </ClInclude>
+    <ClInclude Include="recoil data\recoil_values.h">
+      <Filter>rust</Filter>
+    </ClInclude>
+    <ClInclude Include="config settings\config.h">
+      <Filter>rust</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\crypto.hpp">
+      <Filter>rust</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\md5.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\sha256.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\xor.hpp">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="input\inputsystem.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="pch\pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2\vec2.h">
+      <Filter>mouse_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="config settings\settings.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="recoil data\rust_recoil.h">
+      <Filter>rust</Filter>
+    </ClInclude>
+    <ClInclude Include="config settings\unity_keynames.h">
+      <Filter>rust</Filter>
+    </ClInclude>
+    <ClInclude Include="proc handle\process_handler.h">
+      <Filter>rust</Filter>
+    </ClInclude>
+    <ClInclude Include="main\gui.hpp">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="main\internal.hpp">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="API.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="files.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="main\previews.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vendor\ImGui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGui\imgui_impl_dx9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse control\mouse_controller.cpp">
+      <Filter>mouse_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="config settings\config.cpp">
+      <Filter>rust</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\md5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\sha256.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="input\inputsystem.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="pch\pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2\vec2.cpp">
+      <Filter>mouse_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="proc handle\process_handler.cpp">
+      <Filter>rust</Filter>
+    </ClCompile>
+    <ClCompile Include="files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\internal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\cfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vendor\DirectX9\Include\D3DX_DXGIFormatConvert.inl">
+      <Filter>pch</Filter>
+    </None>
+    <None Include="vendor\DirectX9\Include\d3dx9math.inl">
+      <Filter>pch</Filter>
+    </None>
+    <None Include="vendor\DirectX9\Include\D3DX10math.inl">
+      <Filter>pch</Filter>
+    </None>
+    <None Include="vendor\DirectX9\Include\xnamathconvert.inl">
+      <Filter>pch</Filter>
+    </None>
+    <None Include="vendor\DirectX9\Include\xnamathmatrix.inl">
+      <Filter>pch</Filter>
+    </None>
+    <None Include="vendor\DirectX9\Include\xnamathmisc.inl">
+      <Filter>pch</Filter>
+    </None>
+    <None Include="vendor\DirectX9\Include\xnamathvector.inl">
+      <Filter>pch</Filter>
+    </None>
+  </ItemGroup>
+</Project>
